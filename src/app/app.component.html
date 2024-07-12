@@ -2,3 +2,5 @@
 
 <button (click)="y.set(y() + 1)">Increase Y</button>
 <p>Z: {{ z() }}</p>
+
+<app-count [counter]="z()"></app-count>
